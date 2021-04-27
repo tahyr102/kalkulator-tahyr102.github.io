@@ -1,0 +1,114 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top: 50px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px black;
+        height: 500px;
+        width: 400px;
+        background-color: rgb(231, 231, 231);
+    }
+    /* layar */
+    
+    .container .layar {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        border: 1px solid black;
+        width: 90%;
+        height: 15%;
+        background-color: white;
+        font-size: 1.7em;
+        overflow: hidden;
+    }
+    
+    .container .layar input {
+        display: flex;
+        overflow: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 100%;
+        width: 100%;
+        font-size: 1em;
+        color: black;
+    }
+    /* operasi */
+    
+    .container .operasi {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 15%;
+    }
+    
+    .container .operasi .tambah,
+    .kurang,
+    .kali,
+    .bagi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 23%;
+        background-color: yellow;
+        font-size: 2em;
+    }
+    
+    .container .operasi .tambah,
+    .kurang,
+    .kali,
+    .bagi,
+    .numb,
+    .samadengan:hover {
+        cursor: pointer;
+    }
+    /* angka */
+    
+    .container .container_angka {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 65%;
+    }
+    
+    .container .container_angka .angka {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 75%;
+        /* background-color: black; */
+    }
+    
+    .container .container_angka .angka .numb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 31%;
+        height: 23%;
+        background-color: white;
+        font-size: 2em;
+    }
+    
+    .container .container_angka .samadengan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 98%;
+        width: 23%;
+        background-color: rgb(8, 102, 165);
+        font-size: 2em;
+    }
